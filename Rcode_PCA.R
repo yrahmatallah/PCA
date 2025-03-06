@@ -1,6 +1,6 @@
 
 
-load("C:\\Users\\rahmatallahyasir\\Desktop\\Yasir\\inbre\\DataScienceCore_Rcodes\\PCA\\GeneExpressionData.RData")
+load("GeneExpressionData.RData")
 ls()
 table(class.labels)
 exp.matrix <- exp.matrix[, c(which(class.labels=="normal"), which(class.labels=="clearcellRCC"))]
