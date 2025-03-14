@@ -1,5 +1,4 @@
 
-
 load("GeneExpressionData.RData")
 ls()
 table(class.labels)
@@ -37,10 +36,4 @@ barplot(a^2/sum(a^2), axes=FALSE, main="% Variance explained by principal compon
 axis(side=1, las=2, at=pos, labels=paste("PC", c(1:45), sep=""), cex.axis=0.7)
 axis(side=2, las=1, at=seq(0, max(a^2/sum(a^2)), by=0.05), cex.axis=1)
 
-
-
-
-
-
-
-
+sessionInfo()
